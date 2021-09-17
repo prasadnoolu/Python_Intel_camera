@@ -1,9 +1,4 @@
-# Python samples. 
-
-#### Instructions
-* Build the python wrapper from the root directory ```cmake -DRSID_PY=ON -DRSID_PREVIEW=ON ..```
-* Copy the `rsid.dll` and `rsid_py*.pyd` (or `rsid.so` and `rsid_py*.so` if in Linux) from the build directory to this directory.
-* Edit the ```PORT``` variable in the samples to point to the right serial port (.e.g. ```COM9``` in Windows or `/dev/ttyACM0` in Linux)
+Use viewer.py to get an interface and change the comport of your camera and use python 3.7.x version
 
 #### Samples
 * [authenticate.py](authenticate.py): basic sample to authenticate a user. 
